@@ -3,4 +3,4 @@
 
 ---
 
-[:arrow_backward: Back ](./workshop-08.md) • [ Home :arrow_forward:](./workshop-01.md)
+[:arrow_backward: Back ](./workshop-08.md) • [ Home :fast_forward:](./README.md)
