@@ -36,4 +36,4 @@ Be thinking about your possible application - we'll work through this example fi
 
 ---
 
-[Next :arrow_forward:](./workshop-02.md)
+[ Home :fast_forward:](./README.md) • [Next :arrow_forward:](./workshop-02.md)
