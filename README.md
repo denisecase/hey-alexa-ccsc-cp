@@ -12,6 +12,28 @@ CCSC-CP 2021 Workshop repo for Hey Alexa!  A Fun Introduction to AWS Lambda, Ser
 - Denise M Case, Northwest Missouri State University, Maryville, MO 64468
 - dcase@nwmissouri.edu
 
+---
+
+## Agenda (180 minutes)
+
+1. [Introduction & Overview (10 minutes)](./workshop-01.md)
+2. [Introducing Alexa Skills (20 minutes)](./workshop-02.md)
+   - Alexa Developer Account & Console
+   - Skills / Intents / Enumerated Types / Endpoints
+3. [Introducing AWS and Hosting Functions (20 minutes)](./workshop-03.md)
+   - Amazon Web Services Account
+   - Lambda Serverless Functions
+   - Configuring 
+   - Uploading / Editing / Updating Function Code
+4. [Demonstrating Testing & Submission Process (10 minutes)](./workshop-04.md)
+5. [Creating Alexa and AWS Accounts/Break (30 minutes)](./workshop-05.md)
+6. [Working through Alexa Task List (30 minutes)](./workshop-06.md)
+7. [Working through AWS Function Task List (30 minutes)](./workshop-07.md)
+8. [Testing New Skills (20 minutes)](./workshop-08.md)
+9. [Wrapping Up / Discussion / Sharing (10 minutes)](./workshop-09.md)
+
+---
+
 ## Overview
 
 Learn how to design and create engaging cutting-edge apps! 
@@ -48,24 +70,3 @@ Participants get access to the project code for the reference app, check-lists f
 - Education and Experience Topics - API and Library
 - Education and Experience Topics - Computational Thinking
 - Education and Experience Topics - Undergraduate Instruction
-
----
-
-## Agenda (180 minutes)
-
-1. [Introduction & Overview (10 minutes)](./workshop-01.md)
-2. [Introducing Alexa Skills (20 minutes)](./workshop-02.md)
-   - Alexa Developer Account & Console
-   - Skills / Intents / Enumerated Types / Endpoints
-3. [Introducing AWS and Hosting Functions (20 minutes)](./workshop-03.md)
-   - Amazon Web Services Account
-   - Lambda Serverless Functions
-   - Configuring 
-   - Uploading / Editing / Updating Function Code
-4. [Demonstrating Testing & Submission Process (10 minutes)](./workshop-04.md)
-5. [Creating Alexa and AWS Accounts/Break (30 minutes)](./workshop-05.md)
-6. [Working through Alexa Task List (30 minutes)](./workshop-06.md)
-7. [Working through AWS Function Task List (30 minutes)](./workshop-07.md)
-8. [Testing New Skills (20 minutes)](./workshop-08.md)
-9. [Wrapping Up / Discussion / Sharing (10 minutes)](./workshop-09.md)
-
