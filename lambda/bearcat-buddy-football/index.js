@@ -123,7 +123,7 @@ const RemainingIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'RemainingIntent';
     },
      handle(handlerInput) {
-        const s = handlerInput.requestEnvelope.request.intent.slots[0];
+        const s = handlerInput.requestEnvelope.request.intent.slots;
         const location = (s.Location.value) ? s.Location.value : null;
         console.log('remaining location = ' + location);
         const now = new Date();
