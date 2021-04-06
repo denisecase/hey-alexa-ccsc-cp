@@ -1,3 +1,4 @@
+[
 { "gamedate": { "year": 2021, "month": 9, "day": 2, "hour": 19, "minute": 0, "timeZone": "CST" }, "gamelocation": "Hays, Kansas" },
 { "gamedate": { "year": 2021, "month": 9, "day": 9, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
 { "gamedate": { "year": 2021, "month": 9, "day": 18, "hour": 18, "minute": 0, "timeZone": "CST" }, "gamelocation": "Warrensburg, Missouri" },
@@ -9,3 +10,4 @@
 { "gamedate": { "year": 2021, "month": 10, "day": 30, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
 { "gamedate": { "year": 2021, "month": 11, "day": 6, "hour": 14, "minute": 0, "timeZone": "CST" }, "gamelocation": "Joplin, Missouri" },
 { "gamedate": { "year": 2021, "month": 11, "day": 13, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" }
+]
