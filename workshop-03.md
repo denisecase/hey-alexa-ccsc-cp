@@ -5,3 +5,8 @@
    - Configuring 
    - Uploading / Editing / Updating Function Code
 
+---
+
+[:arrow_backward: Back ](./workshop-02.md) • [ Next :arrow_forward:](./workshop-04.md)
+
+
