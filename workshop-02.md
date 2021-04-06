@@ -17,12 +17,12 @@
 ## Interaction - Many Intents
 
 
-2 Custom Intents
+We will create two custom intents (two basic tasks our skill can handle).
 
-- Next Intent  (asking about next game)
-- Remaining Intent (asking about how many remain)
+1. Next Intent  (asking about next game)
+2. Remaining Intent (asking about how many remain)
 
-Next Intent asks about the next event - utterances might include:
+The first, our custom "Next Intent" asks about the next event - utterances might include:
 
 - "When is the next home game?"
 - "When is the next away game?"
@@ -30,7 +30,7 @@ Next Intent asks about the next event - utterances might include:
 - "Where is the next {Location} game?"
 - "Next game?"
 
-Remaining Intent asks about remaining events - utterances might include:
+The second, our custom "Remaining Intent" asks about remaining events - utterances might include:
 
 - "How many home games remaining?"
 - "How many away games remaining?"
@@ -50,14 +50,14 @@ Also: Five Amazon Built-In Intents (No Work Required)
 
 Intent SLOTS enable Enumerated Types (e.g. home/away)
 
-- In the intent, create an intent "slot" - in this case, "location". 
-- Then, we setup a slot type with possible values (home/away)
+- In the intent, create an intent "slot" - in this case, "{Location}". 
+- We create a "slot type" with possible values (home/away)
 
-- Slot Types / LocationSlotType 
+- Slot Type = LocationSlotType 
   - Value "home"
   - Value "away"
 
-Slots make it much more efficient to define sample utterances. 
+Slots make it more efficient to define sample utterances. 
 
 ---
 
@@ -67,15 +67,10 @@ Serverless endpoints (URLs) to handle requests (launch, intents, end)
 
 - Launch Request Handler (start)
 - SessionEnded Request Handler (end)
-
 - Next Intent Handler
 - Remaining Intent Handler
-- 
 - Help Intent Handler
 - CancelAndStop Intent Handler 
-
-More...
-
 - Error Handler
 - Lambda Handler (no name entry point)
 
