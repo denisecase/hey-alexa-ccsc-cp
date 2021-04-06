@@ -49,6 +49,8 @@ Participants get access to the project code for the reference app, check-lists f
 - Education and Experience Topics - Computational Thinking
 - Education and Experience Topics - Undergraduate Instruction
 
+---
+
 ## Agenda (180 minutes)
 
 1. Introduction & Overview (10 minutes)
