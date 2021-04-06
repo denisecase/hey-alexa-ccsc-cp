@@ -29,10 +29,9 @@ Be thinking about your possible application - we'll work through this example fi
 
 ## Environment
 
-1. Alexa Skills Kit Developer Console (to configure the skill)
-2. Serverless functions (provide our custom logic)
-
-- <https://developer.amazon.com/alexa/console/ask>
+[Alexa Skills Kit Developer Console](https://developer.amazon.com/alexa/console/ask)
+- Here, we can configure our custom skill
+- And, we can add the serverless functions to help
 
 ---
 
