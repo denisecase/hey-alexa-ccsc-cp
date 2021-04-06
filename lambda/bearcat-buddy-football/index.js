@@ -15,7 +15,7 @@ const doneText = 'Go Bearcats - Goodbye!';
 const errorText = "Sorry, I could not understand. Please try again.";
 
 // games
-const games = require('./games.json')
+const games = require('./games')
 
 // helper function - get next 
 function getNext(now, location) {
@@ -29,7 +29,7 @@ function getNext(now, location) {
         const d = new Date(i.year, i.month - 1, i.day, i.hour, i.minute, 0);
         const t = (0 === i.hour) ? "a time to be determined" : d.toLocaleTimeString('en-US')
         if (d > now) {
-            if (location == null) {
+            if (location === null) {
                 ans = 'The next ' + gender + ' ' + sport + ' game is ' + d.toDateString() + ' at ' + t + ' in ' + p + ".";
                 return ans;
             }
@@ -84,7 +84,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speechText = 'Welcome from ' + skillName + '. Say When is the next home game? or How many games remaining?';
+        const speakOutput = 'Welcome from ' + skillName + '. Say When is the next home game? or How many games remaining?';
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .reprompt(speakOutput)
@@ -122,7 +122,8 @@ const RemainingIntentHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'RemainingIntent';
     },
-   const s = handlerInput.requestEnvelope.request.intent.slots;
+     handle(handlerInput) {
+        const s = handlerInput.requestEnvelope.request.intent.slots[0];
         const location = (s.Location.value) ? s.Location.value : null;
         console.log('remaining location = ' + location);
         const now = new Date();
@@ -224,7 +225,6 @@ exports.handler = Alexa.SkillBuilders.custom()
         LaunchRequestHandler,
         NextIntentHandler,  //  add custom intents and remove any unnecessary ones (e.g. hello world)
         RemainingIntentHandler, //  add custom intents and remove any unnecessary ones (e.g. hello world)
-        HelloWorldIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
         SessionEndedRequestHandler,
