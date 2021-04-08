@@ -27,8 +27,8 @@ CCSC-CP 2021 Workshop repo for Hey Alexa!  A Fun Introduction to AWS Lambda, Ser
    - Editing / Updating Function Code
 4. [Demonstrating Testing & Submission Process (10 minutes)](./workshop-04.md)
 5. [Creating Alexa and AWS Accounts/Break (30 minutes)](./workshop-05.md)
-6. [Working through Alexa Task List (30 minutes)](./workshop-06.md)
-7. [Working through AWS Function Task List (30 minutes)](./workshop-07.md)
+6. [Working through Alexa Build Tasks (30 minutes)](./workshop-06.md)
+7. [Working through Alexa Code Tasks (30 minutes)](./workshop-07.md)
 8. [Testing New Skills (20 minutes)](./workshop-08.md)
 9. [Wrapping Up / Discussion / Sharing (10 minutes)](./workshop-09.md)
 
