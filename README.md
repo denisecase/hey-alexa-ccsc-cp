@@ -4,7 +4,7 @@ CCSC-CP 2021 Workshop repo for Hey Alexa!  A Fun Introduction to AWS Lambda, Ser
 ## CCSC-CP 2021 Conference
 
 - Website: <https://www.ccsc.org/centralplains/>
-- 2021 program: <https://www.ccsc.org/centralplains/wp-content/uploads/2021/03/CCSC-2021-Conference-Schedule.pdf>
+- [2021 CCSC-CP Conference Schedule](https://www.ccsc.org/centralplains/wp-content/uploads/2021/04/CCSC_CP_2021_ConferenceScheduleFinal3.pdf)
 
 ## About
 
