@@ -77,3 +77,7 @@ Serverless endpoints (URLs) to handle requests (launch, intents, end)
 ---
 
 [:arrow_backward: Back ](./workshop-01.md) • [ Next :arrow_forward:](./workshop-03.md)
+
+---
+
+![Alexa Developer Console - Build Tab](./images/alexa-developer-console-build-tab.PNG)
