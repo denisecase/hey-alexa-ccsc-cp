@@ -87,3 +87,7 @@ After fixing, click "Save", then "Deploy" to retest.
 ---
 
 [:arrow_backward: Back ](./workshop-06.md) • [ Next :arrow_forward:](./workshop-08.md)
+
+---
+
+![Alexa Developer Console - Host Code In Alexa](./images/alexa-developer-console-code-in-alexa.PNG)
