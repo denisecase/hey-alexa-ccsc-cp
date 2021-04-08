@@ -1,7 +1,7 @@
 # Workshop 08 - Prepare and Certify (20 minutes)
 
 1. Prepare Distribution Information
-2. Certify your Skill
+2. Certification
 3. Find your Store URL
 
 ## Perpare Distribution information
@@ -22,9 +22,14 @@ Here's the distribution information for the example app.
 
 Click "Save and Continue".
 
-## Certify and publish your skill
+## Certification Tab
 
-Open the "Certification" tab and submit your skill for review. 
+Open the "Certification" tab.
+
+1. Run Validation Checks.
+2. Click "Submission" on the right. 
+3. Click "Submit for Review". 
+
 Typically results return within a day or so. 
 
 ## Find Your Store URL
