@@ -52,6 +52,12 @@ We'll work through this example first and then, help you build your own favorite
 - Configure our custom skill
 - Add the serverless functions to handle requests
 
+## Alexa Skill Store 
+
+*Habit 2 - Begin with the end in mind. Stephen Covey, 7 Habits of Highly Successful People*
+
+- [Browse Alexa Skills](https://www.amazon.com/alexa-skills/b/?ie=UTF8&node=13727921011&ref_=topnav_storetab_a2s)
+
 ---
 
 ## References
