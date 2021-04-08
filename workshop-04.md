@@ -39,8 +39,11 @@ Close the skill. For example, say "Close" or "Stop", or our custom utterance:
 that's all
 ```
 
-Once we build, code, and test, we're ready to publish to the store. 
-We'll need to add some icons and configure our store advertisement. That's next.
+## Next Steps
+
+- Once we build, code, and test, we're ready to publish to the store. 
+- We'll need to add some icons and configure our store advertisement. 
+- First, let's set up our accounts and build your custom skill.
 
 
 ---
