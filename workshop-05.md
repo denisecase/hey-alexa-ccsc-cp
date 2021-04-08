@@ -37,7 +37,7 @@ If you don't have an Amazon account:
 
 [:arrow_backward: Back ](./workshop-04.md) • [ Next :arrow_forward:](./workshop-06.md)
 
---
+---
 
 ![Alexa Sign In OR Create Account](./images/alexa-signin-or-create-account.PNG)
 
