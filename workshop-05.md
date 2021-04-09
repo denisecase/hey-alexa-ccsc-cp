@@ -40,4 +40,3 @@ If you don't have an Amazon account:
 ---
 
 ![Alexa Sign In OR Create Account](./images/alexa-signin-or-create-account.PNG)
-
