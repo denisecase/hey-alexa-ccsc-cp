@@ -30,7 +30,14 @@ CCSC-CP 2021 Workshop repo for Hey Alexa!  A Fun Introduction to AWS Lambda, Ser
 6. [Working through Alexa Build Tasks (30 minutes)](./workshop-06.md)
 7. [Working through Alexa Code Tasks (30 minutes)](./workshop-07.md)
 8. [Prepare and Certify (20 minutes)](./workshop-08.md)
-9. [Wrap Up / Discussion / Sharing (10 minutes)](./workshop-09.md)
+
+---
+
+Jump to this URL
+
+![https://github.com/denisecase/hey-alexa-ccsc-cp](./images/qr-code-alexa-repo.png)
+
+10. [Wrap Up / Discussion / Sharing (10 minutes)](./workshop-09.md)
 
 ---
 
