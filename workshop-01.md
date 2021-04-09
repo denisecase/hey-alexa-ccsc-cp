@@ -19,7 +19,7 @@ First, we'll show how the "Bearcat Buddy Football" skill was created, and why it
 We'll show all aspects required to design, build and publish your own custom skills.  
 Bearcat Buddy Football helps find out when and where our Northwest Missouri State University football games will be. 
 
-If you have an Alexa device:
+If you have an Alexa device (or Alexa mobile app):
 
 - You can enable the skill from the store at <https://www.amazon.com/dp/B07SCSD3DV>
 - Try it by saying "Alexa, open Bearcat Buddy Football". 
