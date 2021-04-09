@@ -21,7 +21,7 @@ Modify the default code provided using the example.
 
 1. Require the sdk (at the top)
 2. Configure your constants (second section)
-3. Require the games.json data file (~22-23)
+3. Require the games.json data file
 4. Copy the helper function to "get next" 
 5. Copy the helper function to "get remaining" 
 
