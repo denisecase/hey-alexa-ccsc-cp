@@ -86,7 +86,7 @@ After fixing, click "Save", then "Deploy" to retest.
 
 ---
 
-[:arrow_backward: Back ](./workshop-06.md) • [ Next :arrow_forward:](./workshop-08.md)
+[:arrow_backward: Back ](./workshop-06.md) • [Next :arrow_forward:](./workshop-08.md)
 
 ---
 
