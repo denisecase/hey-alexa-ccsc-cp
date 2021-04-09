@@ -70,3 +70,7 @@ Participants get access to the project code for the reference app, check-lists f
 - Education and Experience Topics - API and Library
 - Education and Experience Topics - Computational Thinking
 - Education and Experience Topics - Undergraduate Instruction
+
+## Learn More
+
+- [Alexa Developer Portal](https://developer.amazon.com/en-US/alexa)
