@@ -105,4 +105,4 @@ Hit enter after typing each entry.
 
 ---
 
-![Alexa Developer Console - Custom Intent - Utterances and Slot Types](alexa-developer-console-custom-intent-utterances-and-slot-types)
+![Alexa Developer Console - Custom Intent - Utterances and Slot Types](./images/alexa-developer-console-custom-intent-utterances-and-slot-types.PNG)
