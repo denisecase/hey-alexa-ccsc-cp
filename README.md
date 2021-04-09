@@ -14,7 +14,7 @@ CCSC-CP 2021 Workshop repo for Hey Alexa!  A Fun Introduction to AWS Lambda, Ser
 
 ---
 
-## Agenda (180 minutes)
+## Agenda (3 hour Workshop)
 
 1. [Introduction & Overview (10 minutes)](./workshop-01.md)
 2. [Introducing Alexa Skills (20 minutes)](./workshop-02.md)
