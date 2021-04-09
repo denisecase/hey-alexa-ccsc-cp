@@ -11,6 +11,7 @@ Custom Skill Examples
 - [Bearcat Buddy - Football](https://www.amazon.com/dp/B07SCSD3DV)
 - Bearcat Buddy - Men's Basketball
 - Bearcat Buddy - Women's Basketball
+- Bearcat Buddy = Women's Golf
 
 ---
 
