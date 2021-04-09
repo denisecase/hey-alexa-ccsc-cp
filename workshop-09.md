@@ -12,6 +12,7 @@ Custom Skill Examples
 - Bearcat Buddy - Men's Basketball
 - Bearcat Buddy - Women's Basketball
 - Bearcat Buddy = Women's Golf
+- Rocket Buddy - Junior High Track
 
 ---
 
