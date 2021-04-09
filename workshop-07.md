@@ -19,38 +19,43 @@ One has our logic, one has the game data. Google to find the upcoming games for 
 
 Modify the default code provided using the example.
 
-1. Require the sdk (lines 1-4)
-2. Configure your constants (6-15)
-3. Require the games.json data file (17-18)
-4. Copy the helper function to "get next" (20-47)
-5. Copy the helper function to "get remaining" (49-78)
+1. Require the sdk (at the top)
+2. Configure your constants (second section)
+3. Require the games.json data file (~22-23)
+4. Copy the helper function to "get next" 
+5. Copy the helper function to "get remaining" 
 
 Verify the handlers.
 
-1. LaunchRequestHandler (on start)
+1. LaunchRequestHandler (on start) - update speakOutput if desired
 2. NextIntentHandler - the first of our custom Intent Handlers
 3. RemainingIntentHandler - the second of our custom Intent Handlers
-4. HelpIntentHandler
-5. CancelAndStopIntentHandler
-6. SessionEndedRequestHandler (on end)
-7. IntentReflectorHandler - for debugging
-8. ErrorHandler - pardon, I missed that
+4. HelpIntentHandler - update speakOutput if desired
+5. CancelAndStopIntentHandler - update speakOutput if desired
+6. FallbackIntentHandler - update speakOutput if desired
+7. SessionEndedRequestHandler (on end)
+8. IntentReflectorHandler - for debugging only (included LAST)
+9. ErrorHandler - update speakOutput if desired
 
 Remove any unnecessary [built-in](https://developer.amazon.com/en-US/docs/alexa/custom-skills/standard-built-in-intents.html) handlers.
 
 Customize the constructor.
 
 ```Node
-// The SkillBuilder acts as the entry point for your skill, routing all request and response
-// payloads to the handlers above. Make sure any new handlers or interceptors you've
-// defined are included below. The order matters - they're processed top to bottom.
+/**
+ * This handler acts as the entry point for your skill, routing all request and response
+ * payloads to the handlers above. Make sure any new handlers or interceptors you've
+ * defined are included below. The order matters - they're processed top to bottom 
+ * */
 exports.handler = Alexa.SkillBuilders.custom()
     .addRequestHandlers(
         LaunchRequestHandler,
         NextIntentHandler,  //  add custom intents and remove any unnecessary ones (e.g. hello world)
         RemainingIntentHandler, //  add custom intents and remove any unnecessary ones (e.g. hello world)
+         // HelloWorldIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
+        FallbackIntentHandler,
         SessionEndedRequestHandler,
         IntentReflectorHandler, // make sure IntentReflectorHandler is last so it doesn't override your custom intent handlers
     )
