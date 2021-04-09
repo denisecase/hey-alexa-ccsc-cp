@@ -31,41 +31,46 @@ Just create a custom invokation for your favorite sports team and update the inf
 
 ### index.js
 
-1. Require the sdk (lines 1-4)
-2. Configure your constants (6-18)
-3. Require the games.json data file (20-21)
-4. Copy the helper function to "get next" (24-50)
-5. Copy the helper function to "get remaining" (53-81)
+1. Require the sdk (at the top)
+2. Configure your constants (second section)
+3. Require the games.json data file (~22-23)
+4. Copy the helper function to "get next" 
+5. Copy the helper function to "get remaining" 
 
 Handlers
 
 Each handler takes in a "HandlerInput" object, providdes a custom ResponseBuilder that can speak and listen for more
 
-1. LaunchRequestHandler (on start) - update speakOutput if desired
-2. NextIntentHandler - the first of our custom Intent Handlers
-3. RemainingIntentHandler - the second of our custom Intent Handlers
-4. HelpIntentHandler - update speakOutput if desired
-5. CancelAndStopIntentHandler - update speakOutput if desired
-6. SessionEndedRequestHandler (on end)
-7. IntentReflectorHandler - for debugging - update speakOutput, comment out reprompt
-8. ErrorHandler - say what? - update speakOutput if desired
+1. Launch Request Handler (on start)
+2. Next Intent Handler - the first of our custom Intent Handlers
+3. Remaining Intent Handler - the second of our custom Intent Handlers
+4. Help Intent Handler 
+5. Cancel And Stop Intent Handler 
+6. Fallback Intent Handler
+7. Session Ended Request Handler (on end)
+8. Intent Reflector Handler - for debugging
+9. ErrorHandler - say what? 
 
 Constructor
 
-1. Add custom handlers
+1. Include new custom handlers
 2. Remove unneeded handlers (e.g. HelloWorldIntentHandler)
 
 ```Node
-// The SkillBuilder acts as the entry point for your skill, routing all request and response
-// payloads to the handlers above. Make sure any new handlers or interceptors you've
-// defined are included below. The order matters - they're processed top to bottom.
+**
+ * This handler acts as the entry point for your skill, routing all request and response
+ * payloads to the handlers above. Make sure any new handlers or interceptors you've
+ * defined are included below. The order matters - they're processed top to bottom 
+ * */
 exports.handler = Alexa.SkillBuilders.custom()
     .addRequestHandlers(
         LaunchRequestHandler,
         NextIntentHandler,  //  add custom intents and remove any unnecessary ones (e.g. hello world)
         RemainingIntentHandler, //  add custom intents and remove any unnecessary ones (e.g. hello world)
+         // HelloWorldIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
+        FallbackIntentHandler,
         SessionEndedRequestHandler,
         IntentReflectorHandler, // make sure IntentReflectorHandler is last so it doesn't override your custom intent handlers
     )
@@ -85,16 +90,10 @@ Test by going back and forth between "Code" and "Test" tabs.
 - Error messages are marked with red x. Messages are typically helpful. 
 - Warnings are marked with yellow. Good static analysis tools - e.g., found == - don't you want === which is an excellent JavaScript suggestion.
 
-Local testing (not required)
+Downloading Code
 
-- Not required, but I keep a copy of my code in a GitHub project. 
-- After cloning down to your machine (or copying your files down).
-- In the lambda folder (you'll need Node/npm installed).
-
-Open PowerShell in the folder with your index.js file. 
-
-Just once, run ```npm init``` and answer the prompts to create a local minimal package.json (required by Node.js).
-After debugging, run ```node index.js``` to start your app.
+- You can download an online copy of your code (see archives folder).
+- All this work was done entirely in the browser - local execution is not needed (and may not work correctly).
 
 ---
 
