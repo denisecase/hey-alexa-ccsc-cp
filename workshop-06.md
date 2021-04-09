@@ -99,6 +99,8 @@ Hit enter after typing each entry.
 1. Click "Build Model" button
 2. Click "Evaluate Model" button and test utterances as you like. 
 
+---
+
 [:arrow_backward: Back ](./workshop-05.md) • [ Next :arrow_forward:](./workshop-07.md)
 
 ---
