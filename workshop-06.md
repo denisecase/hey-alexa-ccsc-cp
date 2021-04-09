@@ -3,7 +3,7 @@
 1. Design your skill
 2. Build your skill
 
-## Design - Fill in these questions first! 
+## Design 
 
 1. How will you invoke your skill? e.g., Alexa - open Bearcat Buddy Football. Don't be too general! Many sports in one skill is too complex - be specific. 
 2. What custom intents will this skill handle? (In our case, NextIntent and RemainingIntent.)
