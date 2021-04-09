@@ -36,7 +36,7 @@ Verify the handlers.
 7. IntentReflectorHandler - for debugging
 8. ErrorHandler - pardon, I missed that
 
-Remove any unnecessary handlers.
+Remove any unnecessary [built-in](https://developer.amazon.com/en-US/docs/alexa/custom-skills/standard-built-in-intents.html) handlers.
 
 Customize the constructor.
 
