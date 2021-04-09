@@ -32,27 +32,28 @@ Just create a custom invokation for your favorite sports team and update the inf
 ### index.js
 
 1. Require the sdk (lines 1-4)
-2. Configure your constants (6-15)
-3. Require the games.json data file (17-18)
-4. Copy the helper function to "get next" (20-47)
-5. Copy the helper function to "get remaining" (49-78)
+2. Configure your constants (6-18)
+3. Require the games.json data file (20-21)
+4. Copy the helper function to "get next" (24-50)
+5. Copy the helper function to "get remaining" (53-81)
 
 Handlers
 
 Each handler takes in a "HandlerInput" object, providdes a custom ResponseBuilder that can speak and listen for more
 
-1. LaunchRequestHandler (on start)
+1. LaunchRequestHandler (on start) - update speakOutput if desired
 2. NextIntentHandler - the first of our custom Intent Handlers
 3. RemainingIntentHandler - the second of our custom Intent Handlers
-4. HelpIntentHandler
-5. CancelAndStopIntentHandler
+4. HelpIntentHandler - update speakOutput if desired
+5. CancelAndStopIntentHandler - update speakOutput if desired
 6. SessionEndedRequestHandler (on end)
-7. IntentReflectorHandler - for debugging
-8. ErrorHandler - pardon, I missed that
+7. IntentReflectorHandler - for debugging - update speakOutput, comment out reprompt
+8. ErrorHandler - say what? - update speakOutput if desired
 
 Constructor
 
-Dont' forget to add your custom handlers here! 
+1. Add custom handlers
+2. Remove unneeded handlers (e.g. HelloWorldIntentHandler)
 
 ```Node
 // The SkillBuilder acts as the entry point for your skill, routing all request and response
