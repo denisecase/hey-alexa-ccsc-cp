@@ -10,24 +10,27 @@ const sport = 'Football';
 const home = 'home';
 const homecity = 'Maryville, Missouri';
 const away = 'away';
+const intentText1 = 'when is the next game';
+const intentText2 = 'how many games remaining'; 
 const helpText = 'Say when is the next game or how many games remaining? Say stop or cancel to exit.';
 const doneText = 'Go Bearcats - Goodbye!';
 const errorText = "Sorry, I could not understand. Please try again.";
+const victoryText = "";
 
 // games
-const games = require('./games')
+const games = require('./games');
 
 // helper function - get next 
 function getNext(now, location) {
     console.log('Entering getNext: ' + now + ' ' + location);
     const ls = (location === null) ? "" : location;
-    let ans = 'There are no more ' + gender + ' ' + sport + ' games in the current schedule. ';
+    let ans = 'There are no more ' + gender + ' ' + sport + ' games in the current schedule. ' + victoryText;
     for (let j = 0; j < games.length; j++) {
         const item = games[j];
         const p = item.gamelocation;
         const i = item.gamedate;
         const d = new Date(i.year, i.month - 1, i.day, i.hour, i.minute, 0);
-        const t = (0 === i.hour) ? "a time to be determined" : d.toLocaleTimeString('en-US')
+        const t = (0 === i.hour) ? "a time to be determined" : d.toLocaleTimeString('en-US');
         if (d > now) {
             if (location === null) {
                 ans = 'The next ' + gender + ' ' + sport + ' game is ' + d.toDateString() + ' at ' + t + ' in ' + p + ".";
@@ -84,7 +87,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Welcome from ' + skillName + '. Say When is the next home game? or How many games remaining?';
+        const speakOutput = `Welcome from ${skillName}. Say ${intentText1} or ${intentText2}`;
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .reprompt(speakOutput)
@@ -107,7 +110,9 @@ const NextIntentHandler = {
         console.log('next now = ' + now.toDateString());
         let speechText = '';
         speechText = speechText + ' ' + getNext(now, location);
-        if (speechText === '') { speechText = "Hmm...I can't help with that one. Try asking when is the next game or how many games remaining?" }
+        if (speechText === '') { 
+            speechText = `Hmm...I can't help with that one. Try asking ${intentText1} or ${intentText2}`;
+        }
         return handlerInput.responseBuilder
             .speak(speechText)
             .reprompt('Ask how many games remaining or say stop or cancel to exit.')
@@ -130,7 +135,9 @@ const RemainingIntentHandler = {
         console.log('remaining now = ' + now.toDateString());
         let speechText = '';
         speechText = speechText + ' ' + getRemaining(now, location);
-        if (speechText === '') { speechText = "Hmm...I can't help with that one. Say when is the next game or how many games remaining?" }
+         if (speechText === '') { 
+            speechText = `Hmm...I can't help with that one. Try asking ${intentText1} or ${intentText2}`;
+        }
         return handlerInput.responseBuilder
             .speak(speechText)
             .reprompt('Ask when is the next game or say stop or cancel to exit.')
@@ -225,6 +232,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         LaunchRequestHandler,
         NextIntentHandler,  //  add custom intents and remove any unnecessary ones (e.g. hello world)
         RemainingIntentHandler, //  add custom intents and remove any unnecessary ones (e.g. hello world)
+        // HelloWorldIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
         SessionEndedRequestHandler,
