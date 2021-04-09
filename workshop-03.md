@@ -97,7 +97,7 @@ After debugging, run ```node index.js``` to start your app.
 
 ---
 
-[:arrow_backward: Back ](./workshop-02.md) • [ Next :arrow_forward:](./workshop-04.md)
+[:arrow_backward: Back ](./workshop-02.md) • [Next :arrow_forward:](./workshop-04.md)
 
 ---
 
