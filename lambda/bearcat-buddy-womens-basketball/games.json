@@ -1,1 +1,26 @@
-
+[
+  { "gamedate": { "year": 2020, "month": 11, "day": 19, "hour": 18, "minute": 0, "timeZone": "CST" }, "gamelocation": "Tahlequah, Oklahoma" },
+  { "gamedate": { "year": 2020, "month": 11, "day": 21, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Claremore, Oklahoma" },
+  { "gamedate": { "year": 2020, "month": 11, "day": 30, "hour": 18, "minute": 0, "timeZone": "CST" }, "gamelocation": "Kansas City, Missouri" },
+  { "gamedate": { "year": 2020, "month": 12, "day": 3, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2020, "month": 12, "day": 5, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2020, "month": 12, "day": 10, "hour": 18, "minute": 0, "timeZone": "CST" }, "gamelocation": "Des Moines, Iowa" },
+  { "gamedate": { "year": 2020, "month": 12, "day": 12, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "St. Joseph, Missouri" },
+  { "gamedate": { "year": 2021, "month": 1, "day": 2, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Pittsburg, Kansas" },
+  { "gamedate": { "year": 2021, "month": 1, "day": 14, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Hays, Kansas" },
+  { "gamedate": { "year": 2021, "month": 1, "day": 16, "hour": 14, "minute": 0, "timeZone": "CST" }, "gamelocation": "Kearney, Nebraska" },
+  { "gamedate": { "year": 2021, "month": 1, "day": 19, "hour": 17, "minute": 0, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2021, "month": 1, "day": 21, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2021, "month": 1, "day": 23, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2021, "month": 1, "day": 28, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Jefferson City, Missouri" },
+  { "gamedate": { "year": 2021, "month": 1, "day": 30, "hour": 13, "minute": 0, "timeZone": "CST" }, "gamelocation": "Warrensburg, Missouri" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 2, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Joplin, Missouri" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 6, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 11, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 13, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 18, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Emporia, Kansas" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 20, "hour": 13, "minute": 0, "timeZone": "CST" }, "gamelocation": "Topeka, Kansas" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 23, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 25, "hour": 17, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" },
+  { "gamedate": { "year": 2021, "month": 2, "day": 27, "hour": 13, "minute": 30, "timeZone": "CST" }, "gamelocation": "Maryville, Missouri" }
+]
