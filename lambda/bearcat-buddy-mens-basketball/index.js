@@ -15,6 +15,7 @@ const intentText2 = 'how many games remaining';
 const helpText = `when is the next game or how many games remaining? Say stop or cancel to exit.`;
 const doneText = 'Go Bearcats - Goodbye!';
 const errorText = "Sorry, I could not understand. Please try again.";
+const victoryText = "Congratulations Bearcats - 2021 Division 2 National Champions!"
 
 // games
 const games = require('./games.json')
@@ -23,7 +24,7 @@ const games = require('./games.json')
 function getNext(now, location) {
     console.log('Entering getNext: ' + now + ' ' + location);
     const ls = (location === null) ? "" : location;
-    let ans = 'There are no more ' + gender + ' ' + sport + ' games in the current schedule. ';
+    let ans = 'There are no more ' + gender + ' ' + sport + ' games in the current schedule. ' + victoryText;
     for (let j = 0; j < games.length; j++) {
         const item = games[j];
         const p = item.gamelocation;
@@ -31,7 +32,7 @@ function getNext(now, location) {
         const d = new Date(i.year, i.month - 1, i.day, i.hour, i.minute, 0);
         const t = (0 === i.hour) ? "a time to be determined" : d.toLocaleTimeString('en-US')
         if (d > now) {
-            if (location == null) {
+            if (location === null) {
                 ans = 'The next ' + gender + ' ' + sport + ' game is ' + d.toDateString() + ' at ' + t + ' in ' + p + ".";
                 return ans;
             }
@@ -55,7 +56,7 @@ function getRemaining(now, location) {
     let ctRemaining = 0;
     let ctHomes = 0;
     let ctAways = 0;
-    let ans = 'There are ' + ctAways + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining.';
+    let ans = 'There are ' + ctAways + ' ' + gender + ' ' + ls + ' ' + sport + ' games remaining.' + victoryText;
     for (let j = 0; j < games.length; j++) {
         const item = games[j];
         const p = item.gamelocation;
@@ -86,7 +87,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speechText = `Welcome from ${skillName}. Say ${intentText1} or ${intentText2}`;
+        const speakOutput = `Welcome from ${skillName}. Say ${intentText1} or ${intentText2}`;
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .reprompt(speakOutput)
@@ -229,7 +230,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         LaunchRequestHandler,
         NextIntentHandler,  //  add custom intents and remove any unnecessary ones (e.g. hello world)
         RemainingIntentHandler, //  add custom intents and remove any unnecessary ones (e.g. hello world)
-        HelloWorldIntentHandler,
+        // HelloWorldIntentHandler,  
         HelpIntentHandler,
         CancelAndStopIntentHandler,
         SessionEndedRequestHandler,
