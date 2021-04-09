@@ -37,13 +37,13 @@ CCSC-CP 2021 Workshop repo for Hey Alexa!  A Fun Introduction to AWS Lambda, Ser
 ## Overview
 
 Learn how to design and create engaging cutting-edge apps! 
-We’ll intro-duce principles of designing apps that apply freely available conversational AItools (e.g., Alexa, Google Home, and Siri) [2]. 
-We’ll explain the powerful andeasy ‘serverless’ functions that power them - no programming experience re-quired! 
+We’ll introduce principles of designing apps that apply freely available conversational AItools (e.g., Alexa, Google Home, and Siri) [2]. 
+We’ll explain the powerful and easy ‘serverless’ functions that power them - no programming experience re-quired! 
 We’ll introduce cloud computing and show the benefits of serverless functions [1]. 
 Along the way, participants will open an Amazon Web Services account and get started as an Alexa developer for free!
 We’ll show how to use AWS Lambda serverless functions to run code without worrying about servers, complex file transfers, or setup. 
 We’ll show you how to easily upload and edit simple web-enabled functions. 
-You’ll learn how Alexa can be used to illustrate basic programming concepts like programming flow and enumeratedtypes. 
+You’ll learn how Alexa can be used to illustrate basic programming concepts like programming flow and enumerated types. 
 Participants get access to the project code for the reference app, check-lists for working through the steps to publish, and if they like, can leave witha newly submitted Alexa skill customized for their organization or institution.
 
 ## References
