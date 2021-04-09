@@ -105,10 +105,12 @@ Hit enter after typing each entry.
 
 ---
 
-### Build Model
+### Save / Build Model
 
-1. Click "Build Model" button
-2. Click "Evaluate Model" button and test utterances as you like. 
+1. Click "Save Model" button at the top. 
+2. Click "Build Model" button at the op.
+3. Optional: Click "Evaluate Model" button and test utterances as you like. 
+4. Repeat after making any changes to your Alexa skill model configuration. 
 
 > Our new skill is configured and builds. Now we just need to add the logic that our intents will trigger. Let's continue. 
 
