@@ -1,10 +1,10 @@
 # Workshop 07 - Working through Alexa Code Tasks (30 minutes)
 
-1. Design your code
+1. Design your (endpoint) code
 2. Implement your code
 3. Test your code
 
-## Design
+## Design (Endpoint Code)
 
 Two files required:
 
@@ -13,7 +13,7 @@ Two files required:
 
 One has our logic, one has the game data. Google to find the upcoming games for your favorite team.
 
-## Implement
+## Implement (Endpoint Code)
 
 ### Code index.js
 
