@@ -94,10 +94,23 @@ Hit enter after typing each entry.
 4. Set Location to slot type LocationSlotType
 5. Click Save Model (at the top)
 
+---
+
+### Build Tab - Intents - Delete unneeded Intent
+
+1. Click Intents (the list of all of them)
+2. Find 'HelloWorldIntent'
+3. Click 'Delete' to remove it. 
+4. Click 'Delete Intent' button.
+
+---
+
 ### Build Model
 
 1. Click "Build Model" button
 2. Click "Evaluate Model" button and test utterances as you like. 
+
+> Our new skill is configured and builds. Now we just need to add the logic that our intents will trigger. Let's continue. 
 
 ---
 
