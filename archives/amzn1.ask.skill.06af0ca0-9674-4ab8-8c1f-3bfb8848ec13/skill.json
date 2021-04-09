@@ -1,0 +1,74 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Bearcat Buddy - Football knows the upcoming sports schedule for Northwest Missouri State University",
+          "examplePhrases": [
+            "Alexa, open Bearcat Buddy Football.",
+            "When is the next game?",
+            "How many games remaining?"
+          ],
+          "keywords": [
+            "Northwest",
+            "Missouri",
+            "State",
+            "University",
+            "Bearcat",
+            "Football",
+            "schedule"
+          ],
+          "name": "Bearcat Buddy - Football",
+          "description": "Say Alexa, open Bearcat Buddy - Football.  Then ask \u0027when is the next game?\u0027 - or \u0027how many games remaining?",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Updated for fall 2021 Football season",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:520421566376:function:06af0ca0-9674-4ab8-8c1f-3bfb8848ec13:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:520421566376:function:06af0ca0-9674-4ab8-8c1f-3bfb8848ec13:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:520421566376:function:06af0ca0-9674-4ab8-8c1f-3bfb8848ec13:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:520421566376:function:06af0ca0-9674-4ab8-8c1f-3bfb8848ec13:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

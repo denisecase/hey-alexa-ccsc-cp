@@ -1,0 +1,79 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bearcat buddy football",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "NextIntent",
+          "slots": [
+            {
+              "name": "Location",
+              "type": "LocationSlotType"
+            }
+          ],
+          "samples": [
+            "next game",
+            "When is the next {Location} game",
+            "Where is the next {Location} game",
+            "When is the next game",
+            "Where is the next game"
+          ]
+        },
+        {
+          "name": "RemainingIntent",
+          "slots": [
+            {
+              "name": "Location",
+              "type": "LocationSlotType"
+            }
+          ],
+          "samples": [
+            "how many games remaining",
+            "how many {Location} games remaining",
+            "how many {Location} games are there",
+            "how many {Location} games are left",
+            "how many more games are there"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "home"
+              }
+            },
+            {
+              "name": {
+                "value": "away"
+              }
+            }
+          ],
+          "name": "LocationSlotType"
+        }
+      ]
+    }
+  },
+  "version": "1"
+}
