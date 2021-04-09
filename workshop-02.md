@@ -1,9 +1,9 @@
 # Workshop 02 - Introducing Alexa Skills (20 minutes)
 
-   - Alexa Developer Account & [Console](https://developer.amazon.com/alexa/console/ask)
-   - One Skill Invocation 
-   - Many Interactions/Intents (Slots help with choices e.g, home vs away)
-   - Endpoints (serverless functions with custom logic)
+- Alexa Developer Account & [Console](https://developer.amazon.com/alexa/console/ask)
+- One Skill Invocation 
+- Many Interactions/Intents (Slots help with choices e.g, home vs away)
+- Endpoints (serverless functions with custom logic)
 
 ---
 
@@ -54,6 +54,7 @@ Intent SLOTS enable Enumerated Types (e.g. home/away)
 - We create a "slot type" with possible values (home/away)
 
 - Slot Type = LocationSlotType 
+
   - Value "home"
   - Value "away"
 
